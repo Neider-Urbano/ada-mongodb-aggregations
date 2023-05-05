@@ -1,0 +1,29 @@
+### Variables a usar
+@api=http://localhost:3000
+
+### GET server
+GET {{api}}
+Content-Type: application/json
+
+### GET inventories
+GET {{api}}/inventories
+Content-Type: application/json
+
+### GET inventories
+GET {{api}}/inventory/operators
+Content-Type: application/json
+
+### GET inventories
+GET {{api}}/inventories/aggregations
+Content-Type: application/json
+
+### POST inventories
+POST {{api}}/inventories
+Content-Type: application/json
+
+{     
+    "data":[{
+        "id":"name"
+    }]
+}
+
